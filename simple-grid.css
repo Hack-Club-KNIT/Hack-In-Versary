@@ -182,7 +182,6 @@ body {
   .container {
     width: 80%;
   }
-}
 
 @media only screen and (min-width: 1120px) {
   /* 720px */
@@ -190,6 +189,7 @@ body {
     width: 100%;
     max-width: 2000018px;
   }
+}
 
   body {
     font-family: helvetica, arial, sans-serif;
@@ -271,6 +271,9 @@ body {
   #mainheader {
     margin-top: 20px;
   }
+  .flag {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1119px) {
@@ -278,8 +281,4 @@ body {
   #credit {
     display: none;
   }
-  
-  
 }
-
-
